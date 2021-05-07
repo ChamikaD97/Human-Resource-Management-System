@@ -1,0 +1,197 @@
+
+.content{
+
+    position: absolute;
+    box-align:right;
+    top:70px;
+    left :290px;
+    width:1060px;
+    min-width: 1060px;
+    height:580px;
+    border:1px white solid;
+    overflow-y: auto ;
+    background-image: linear-gradient(to right, #0c3b60, #0c3b60, #041d3c, #000);
+}
+.selection .date {
+    padding-left: 20px;
+}
+.selection .date select{
+    width: 130px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.main{
+    padding-top: 20px;
+    height: 120px;
+    align-items: center;
+}
+
+.send:hover{
+    color: #1f9cf3;
+    border:2px solid #073356;
+    transition:300ms;
+}
+.content .selection table{
+    padding-left: 50px;
+}
+.content .selection tr td {
+    width: 300px;
+
+    padding-left: 300px;
+    padding-bottom:15px;
+}
+.content .selection tr th {
+    width: 130px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-bottom: 15px;
+}
+.selection .year{
+    padding-left: 30px;
+}
+.selection .year input{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.content .result{
+
+    color: #ffffff;
+    padding-top: 20px;
+    height: 426px;
+}
+.content .result th{
+
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.content .result tr{
+    border: 1px solid black;
+    color: #ffffff;
+    text-align: center;
+}
+.content .result td {
+    width: 300px;
+    padding-left: 20px;
+    height: 40px;
+}
+.erros{
+
+    padding: 5px;
+    background: none;
+    border:2px solid;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    transition-property: background;
+}
+.send{
+
+    padding: 5px;
+    background: none;
+    border:2px solid;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    transition-property: background;
+}
+.errorRow{
+    padding-left: 450px;
+    padding-top: 20px;
+}
+.row{
+    padding-left: 25px;
+    width: 1200px;
+}
+.TD {
+    padding-left: 250px;
+    padding-bottom: 20px;
+}
+.TH1 {
+    width: 120px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+.TH2 {
+
+    width: 100px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+
+}
+.heading{
+    width: 100%;
+    background-color:#000;
+
+    color: #ffffff;
+    padding: 10px 10px 10px 0px;
+    text-align: center;
+
+}
+
+.label{
+    width: 500px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.notify{
+    padding-top: 10px;
+    color: #4bbe19;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 180px;
+}
+.input{
+    position: relative;
+    float: right;
+    line-height: 25px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    padding-left: 40px;
+}
+
+.content .result table tr:not(:first-child){
+    cursor: pointer;transition: all .25s ease-in-out;
+}
+.content .result table tr:not(:first-child):hover{background-color: #041d31;}
+
+@media screen and (max-width: 1100px){
+    .content{
+        grid-gap: 5rem;
+        top:0;
+        left :0;
+        height: 100%;
+        margin: 10px;
+    }
+    .main-menu{
+        display: none;
+    }
+    .head{
+        display: none;
+    }
+
+}
+@media screen and (max-height: 580px){
+    .content{
+        grid-gap: 5rem;
+        top:0;
+    }
+    .head{
+        display: none;
+    }
+}

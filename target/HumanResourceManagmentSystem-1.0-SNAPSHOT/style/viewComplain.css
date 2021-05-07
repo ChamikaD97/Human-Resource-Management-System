@@ -1,0 +1,140 @@
+.content{
+
+    position: absolute;
+    box-align:right;
+    top:70px;
+    left :290px;
+    width:1060px;
+    height:580px;
+    border:1px white solid;
+    overflow-y: auto ;
+    background-image: linear-gradient(to right, #0c3b60, #0c3b60, #041d3c, #000);
+}
+
+.response{
+    background: #000000;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.send{
+
+    padding: 5px;
+    background: none;
+    border:2px solid;
+    text-decoration: none;
+    padding: 10px;
+    float: right;
+    margin:10px 6px 20px 6px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    transition-property: background;
+}
+.send:hover{
+    color: #1f9cf3;
+    border:2px solid #073356;
+    transition:300ms;
+}
+.main{
+    padding-left: 30px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    border-bottom:1px white solid;
+}
+.data {
+    padding-left: 100px;
+}
+.data td {
+    width: 300px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.data th {
+
+    width: 500px;
+    padding-bottom: 20px;
+}
+.heading{
+    width: 100%;
+    background-color:#000;
+
+    color: #ffffff;
+    padding: 10px 10px 10px 0px;
+    text-align: center;
+
+}
+.label{
+    width: 500px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.input{
+    position: relative;
+    float: right;
+    line-height: 25px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    padding-left: 10px;
+}
+textarea{
+    width: 800px;
+    height: 120px;
+    border-radius: 6px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+}
+
+.content .result tr{
+    text-align: center;
+    color: #ffffff;
+}
+.content .result th{
+    width: 350px;
+    color: #ffffff;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.content .result td{
+    width: 350px;
+    height: 40px;
+    padding-bottom: 20px;
+}
+.content .result table tr:not(:first-child){
+    cursor: pointer;transition: all .25s ease-in-out;
+}
+.content .result table tr:not(:first-child):hover{background-color: #041d31;}
+
+@media screen and (max-width: 1100px){
+    .content{
+        grid-gap: 5rem;
+        top:0;
+        left :0;
+        height: 100%;
+        margin: 10px;
+    }
+    .main-menu{
+        display: none;
+    }
+    .head{
+        display: none;
+    }
+
+}
+@media screen and (max-height: 580px){
+    .content{
+        grid-gap: 5rem;
+        top:0;
+    }
+    .head{
+        display: none;
+    }
+}

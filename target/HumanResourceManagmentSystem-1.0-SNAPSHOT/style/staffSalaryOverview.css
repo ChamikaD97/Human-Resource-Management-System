@@ -1,0 +1,196 @@
+
+.content{
+
+    position: absolute;
+    box-align:right;
+    top:70px;
+    left :290px;
+    width:1060px;
+    height:580px;
+    border:1px white solid;
+    overflow-y: auto ;
+    background-image: linear-gradient(to right, #0c3b60, #0c3b60, #041d3c, #000);
+}
+
+.valLabel{
+    color: crimson;
+    font-size: 14px;
+    text-align: right;
+    font-family: system-ui;
+    font-weight: 450;
+}
+
+.selection .date {
+    padding-left: 20px;
+}
+.selection .date select{
+    width: 130px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.selection {
+    border-bottom: 1px solid white;
+
+}
+.show{
+
+    border:2px rgb(0, 0, 0) solid;
+    border-radius: 12px;
+}
+.show:hover{
+    color: #1f9cf3;
+    border:2px solid #073356;
+    transition:300ms;
+}
+.content .selection table{
+    padding-left: 50px;
+
+}
+.content .selection tr td {
+    width: 400px;
+    padding-left: 200px;
+    padding-bottom:15px;
+}
+.content .selection tr th {
+    width: 130px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-bottom: 15px;
+}
+.selection .year{
+    padding-left: 30px;
+}
+.selection .year input{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.salarySearch{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.content .selection .searchSal tr th{
+
+    padding-left: 30px;
+}
+
+.content .selection .searchSal input{
+    position: relative;
+    float: right;
+    line-height: 25px;
+    border-radius: 6px;
+    width: 250px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    padding-left: 10px;
+}
+.content .result{
+
+    color: #ffffff;
+    border-top:1px white solid;
+}
+.content .result th{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 120px;
+}
+.content .result tr{
+    border: 1px solid black;
+    color: #ffffff;
+    text-align: center;
+}
+.content .result td {
+    width: 100px;
+    height: 40px;
+}
+.totalSalary{
+    color: forestgreen;
+}
+.basic,.daily,.otrate{
+    color: #f31f50;
+}
+.heading{
+    width: 100%;
+    background-color:#000;
+
+    color: #ffffff;
+    padding: 10px 10px 10px 0px;
+    text-align: center;
+
+}
+.label{
+    width: 500px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.input{
+    position: relative;
+    float: right;
+    line-height: 25px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    padding-left: 10px;
+}
+.searchResults{
+    color: dodgerblue;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    margin-bottom: 10px;
+    align-items: center;
+}
+.searchResults td{
+    color: dodgerblue;
+    font-family: "Roboto", sans-serif;
+    padding-left:200px ;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.content .result table tr:not(:first-child){
+    cursor: pointer;transition: all .25s ease-in-out;
+}
+.content .result table tr:not(:first-child):hover{background-color: #041d31;}
+
+@media screen and (max-width: 1100px){
+    .content{
+        grid-gap: 5rem;
+        top:0;
+        left :0;
+        height: 100%;
+        margin: 10px;
+    }
+    .main-menu{
+        display: none;
+    }
+    .head{
+        display: none;
+    }
+
+}
+@media screen and (max-height: 580px){
+    .content{
+        grid-gap: 5rem;
+        top:0;
+    }
+    .head{
+        display: none;
+    }
+}

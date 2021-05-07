@@ -1,0 +1,184 @@
+
+.content{
+
+    position: absolute;
+    box-align:right;
+    top:70px;
+    left :290px;
+    width:1060px;
+    height:580px;
+    border:1px white solid;
+    overflow-y: auto ;
+    background-image: linear-gradient(to right, #0c3b60, #0c3b60, #041d3c, #000);
+}
+
+.valLabel{
+    color: crimson;
+    font-size: 14px;
+    text-align: right;
+    font-family: system-ui;
+    font-weight: 450;
+}
+
+.selection .date {
+    padding-left: 20px;
+}
+
+.show{
+    border:2px rgb(0, 0, 0) solid;
+    border-radius: 12px;
+}
+.save:hover{
+    color: #1f9cf3;
+    border:2px solid #073356;
+    transition:300ms;
+}
+.content .selection table{
+    padding-left: 50px;
+}
+.content  .btn th{
+    padding-left:250px;
+}
+
+.content .selection td {
+    width: 500px;
+    padding-left: 200px;
+    line-height: 2.5;
+}
+.content .result tr{
+    border-top: 1px solid white;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+h4{
+    padding-left: 50px;
+    color: white;
+    padding-bottom: 25px;
+}
+.content .result th,td,tr{
+    width: 500px;
+    height: 35px;
+    text-align: center;
+    color: white;
+}
+.content .reset td {
+    width: 500px;
+    padding-left: 200px;
+    line-height: 2.5;
+}
+.content .reset tr th {
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+
+}
+.content .btn tr th {
+    width: 130px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-bottom: 15px;
+    padding-left: 685px;
+}
+
+.saveBtn{
+    width: 130px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-bottom: 15px;
+}
+.selection  input{
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.reset  input{
+    width: 65px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.reset  select{
+    width: 182px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.heading{
+    width: 100%;
+    background-color:#000;
+
+    color: #ffffff;
+    padding: 10px 10px 10px 0px;
+    text-align: center;
+
+}
+.label{
+    width: 500px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.input{
+    position: relative;
+    float: right;
+    line-height: 25px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    padding-left: 10px;
+}
+
+.save{
+
+    padding: 5px;
+    background: none;
+    border:2px solid;
+    text-decoration: none;
+    padding: 10px;
+    float: right;
+    margin:10px 6px 20px 6px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    transition-property: background;
+}
+.content .result table tr:not(:first-child){
+    cursor: pointer;transition: all .25s ease-in-out;
+}
+.content .result table tr:not(:first-child):hover{background-color: #041d31;}
+
+@media screen and (max-width: 1100px){
+    .content{
+        grid-gap: 5rem;
+        top:0;
+        left :0;
+        height: 100%;
+        margin: 10px;
+    }
+    .main-menu{
+        display: none;
+    }
+    .head{
+        display: none;
+    }
+
+}
+@media screen and (max-height: 580px){
+    .content{
+        grid-gap: 5rem;
+        top:0;
+    }
+    .head{
+        display: none;
+    }
+}

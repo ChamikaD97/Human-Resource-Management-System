@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MySQL - hrmdb@localhost" uuid="661c8b8c-9f72-48b7-b6cc-edf694ff3c4c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/hrmdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hrmsdb@34.66.228.216" uuid="8ac21dce-74fb-4be4-aeb8-3fd3820943e1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://34.66.228.216:3306/hrmsdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hrmsdb@localhost" uuid="fa582326-5ff9-4a78-b506-9cad4b8d2807">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/hrmsdb</jdbc-url>
+    </data-source>
+  </component>
+</project>
