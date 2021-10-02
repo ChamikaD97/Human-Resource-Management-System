@@ -5,8 +5,10 @@ public class CustomizeBean{
     public String startTime;
     public String endTime;
     public int salaryCalculation,flag;
+    
     public  String reset,empId,Date;
     public String getEmpId()
+       
     {
         return empId;
     }
