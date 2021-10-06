@@ -1,7 +1,6 @@
 package Customize;
 
 public class CustomizeBean{
-
     public String startTime;
     public String endTime;
     public int salaryCalculation,flag;
