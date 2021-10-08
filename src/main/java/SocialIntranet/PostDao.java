@@ -1,7 +1,6 @@
 package SocialIntranet;
 
 import DBconnection.DBconn;
-
 import java.io.InputStream;
 import java.sql.*;
 
