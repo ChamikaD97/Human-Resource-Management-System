@@ -9,7 +9,6 @@ public class attendanceBean {
     public void setEmpId(String empId) {
         this.empId = empId;
     }
-
     public String getWorkedHoursFrom() {
         return workedHoursFrom;
     }
