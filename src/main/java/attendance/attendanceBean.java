@@ -4,7 +4,6 @@ public class attendanceBean {
 
     private String empId,  workedHoursFrom,workedHoursTo,otHoursFrom,otHoursTo,from,to,attendanceId,date,attendTime;
     
-    
     private float otHours;
     private String workedHr,leaveTime;
 
