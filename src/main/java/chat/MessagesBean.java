@@ -2,7 +2,6 @@ package chat;
 
 import java.io.InputStream;
 import java.sql.*;
-
 public class MessagesBean
 {
     private String msgId,senderId,receiverId,delEmpId,msgText,msgFileName,msgDateTime;
