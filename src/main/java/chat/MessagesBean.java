@@ -38,7 +38,6 @@ public class MessagesBean
     public void setDelEmpId(String delEmpId) {
         this.delEmpId = delEmpId;
     }
-
     public String getMsgText()
     {
         return msgText;
