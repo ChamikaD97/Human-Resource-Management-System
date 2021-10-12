@@ -8,6 +8,7 @@ public class MessagesBean
     private String msgId,senderId,receiverId,delEmpId,msgText,msgFileName,msgDateTime;
     private InputStream msgFile;
     //Blob msgFile;
+    
     public String getMsgId()
     {
         return msgId;
@@ -28,6 +29,7 @@ public class MessagesBean
     {
         return receiverId;
     }
+    
     public void setReceiverId(String receiverId) {
         this.receiverId = receiverId;
     }
